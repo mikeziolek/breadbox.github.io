@@ -1,0 +1,279 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: "Aleo";
+  font-size: calc(30/18) em;
+  color: #404040;
+}
+
+.featureDesc {
+  font-family: "Cabin";
+  font-size: 1em;
+  color: #000;
+}
+
+header {
+  font-family: "Cabin";
+  font-size: 1em;
+  color: #5EA164;
+  height: 500px;
+  background-image: url("./img/headerBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.logoBanner {
+  margin-left: auto;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: rgba(242, 242, 242, 0.9);
+}
+
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+.signIn {
+  font-family: "Cabin";
+  font-size: 1em;
+  color: #5EA164;
+  float: right;
+  width: 120px;
+  height: 50%;
+  background-color: none;
+  border: 1px solid #5EA164;
+  margin-right: 10px;
+  border-radius: 7px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.headerMain {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 60%;
+  padding-top: 12%;
+  text-align: center;
+}
+
+.headerMain p {
+  font-family: Cabin;
+  font-size: 1.55rem;
+  color: #404040;
+  padding-bottom: 15px;
+}
+
+.join {
+  font-family: "Cabin";
+  font-size: 1em;
+  color: #FFFF;
+  background-color: #5EA164;
+  border: 2px solid #5EA164;
+  border-radius: 7px;
+  padding: 10px 7% 10px 7%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.features svg {
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  width: 140px;
+  padding: 10px 0px 10px 0px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.featuresHeader {
+  font-family: Aleo;
+  text-align: center;
+  color: #404040;
+  font-size: 34px;
+}
+
+.featuresHeader p {
+  font-family: Cabin;
+  text-align: center;
+  color: #404040;
+  font-size: 18px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  background-color: #F2F2F2;
+  height: 501px;
+}
+
+.featureImage {
+  width: 41.2%;
+  background-image: url("./img/Rectangle4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 501px;
+  margin: auto;
+}
+
+.testimonialDetail {
+  margin: 10% 0 2% 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 59.8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+blockquote {
+  font-family: "Cabin";
+  font-size: 1.11em;
+  color: #666666;
+  line-height: 142%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+blockquote::before {
+  content: "“";
+  font-family: "Cabin";
+  font-size: 2em;
+  color: #666666;
+  margin-left: -18px;
+}
+
+blockquote::after {
+  content: "”";
+  font-family: "Cabin";
+  font-size: 2em;
+  color: #666666;
+}
+
+.testimonialDetail p {
+  font-family: "Cabin";
+  font-size: 1.11em;
+  color: #666666;
+  line-height: 142%;
+  margin-right: 0;
+  margin-left: auto;
+  text-align: right;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.dotsContainer {
+  height: 24px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonialDots {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.testimonialDot {
+  background-color: rgba(94, 161, 100, 0.5);
+  margin-left: 8px;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+}
+
+.activeDot {
+  background-color: #5EA164;
+}
+
+.getStarted {
+  padding-top: 2%;
+  padding-bottom: 7%;
+  width: 100%;
+  text-align: center;
+}
+
+.getStarted p {
+  font-family: "Aleo";
+  font-size: 1.333em;
+  color: #404040;
+}
+
+footer {
+  width: 100%;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  font-family: Cabin;
+  color: #666666;
+  font-size: 18px;
+}
+
+.footerLinks {
+  padding-left: 5%;
+}
+
+.socialIcons {
+  padding-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 32px;
+}
+
+footer a {
+  font-family: "Cabin";
+  font-size: calc(20/18em);
+  color: #666666;
+  text-decoration: none;
+}
+
+.socialIcons svg {
+  padding-right: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
